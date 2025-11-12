@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color:#FFD700 ;
+  --theme-color:#191970 ;
 }
 
 * {
@@ -18,8 +18,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #ffffff;
-  background-color:#4B0082;
+  color: var(--theme-color);
+  background-color:#ffffff;
 }
 
 /* --------------------
@@ -36,7 +36,7 @@ h1, h2, h3 {
 -------------------- */
 
 a {
-  color: #ffffff;
+  color: var(--theme-color);
   text-decoration: none;
 }
 
@@ -64,16 +64,18 @@ table {
   min-width: 70%;
 }
 tr {
-  background-color: #191970 ;
+  background-color: #ffffff ;
 }
 tr:nth-child(2n) {
-  background-color: #000080;
+  background-color: #f0f0f0;
 }
 th {
-  background: #0C0C0C;
+  background: var(--theme-color);
   color:#ffffff;
 }
 th, td {
   border: solid 1px #f0f0f0;
   padding: 0.5rem;
 }
+
+
